@@ -10,9 +10,9 @@ public class OverviewPage extends BasePage{
 
     By p1 = By.xpath("//*[@id='checkout_summary_container']/div/div[1]/div[3]/div[2]/div[2]/div");
     By p2 = By.xpath("//*[@id='checkout_summary_container']/div/div[1]/div[4]/div[2]/div[2]/div");
-    By subtotalLabelBy = By.xpath("//*[@id='checkout_summary_container']/div/div[2]/div[5]");
-    By taxLabelBy = By.xpath("//*[@id='checkout_summary_container']/div/div[2]/div[6]");
-    By totalLabelBy = By.xpath("//*[@id='checkout_summary_container']/div/div[2]/div[7]");
+    By subtotalLabelBy = By.xpath("//*[@id='checkout_summary_container']/div/div[2]/div[6]");
+    By taxLabelBy = By.xpath("//*[@id='checkout_summary_container']/div/div[2]/div[7]");
+    By totalLabelBy = By.xpath("//*[@id='checkout_summary_container']/div/div[2]/div[8]");
 
     By finishButtonBy = By.id("finish");
 
